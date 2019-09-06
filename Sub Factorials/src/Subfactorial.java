@@ -12,7 +12,7 @@ public class Subfactorial {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		do {
-			System.out.print(" nter the number: ");
+			System.out.print(" enter the number: ");
 			int give = sc.nextInt();
 			System.out.println("the sub factiroal is: " + subfactorial(give));
 		}while(true);
